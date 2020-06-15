@@ -1101,9 +1101,8 @@ The Kotlin compilations, however, are able to consume Kotlin sources from all of
 
 ## Running Tests
 
-Running tests in a Gradle build is currently supported by default for JVM, Android, Linux, Windows and macOS; 
-JS and other Kotlin/Native targets
-need to be manually configured to run the tests with an appropriate environment, an emulator or a test framework.  
+Running tests in a Gradle build is supported by default for JVM, Android, Linux, Windows, and macOS.
+You need to configure JS and other Kotlin/Native targets manually to run the tests with an appropriate environment, an emulator, or a test framework.
 
 A test task is created under the name `<targetName>Test` for each target that is suitable for testing. Run the `check` task to run 
 the tests for all targets. 
