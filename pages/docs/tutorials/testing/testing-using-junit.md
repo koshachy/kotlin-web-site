@@ -9,11 +9,11 @@ title: "Testing Kotlin using JUnit"
 
 This tutorial shows you how to write a simple test and run it with the Gradle build tool.
 
-The example has the [kotlin.test](/api/latest/kotlin.test/index.html) library under the hood and runs using JUnit.
+The example has the [kotlin.test](/api/latest/kotlin.test/index.html) library under the hood and runs the test using JUnit.
 
 ## Adding Dependencies
 
-To start with JUnit, add the following dependencies to the Gradle configuration:
+To start working with kotlin.test and JUnit, add the following dependencies to the Gradle configuration:
 
 <div class="multi-language-sample" data-lang="groovy">
 <div class="sample" markdown="1" theme="idea" mode='groovy'>
@@ -47,7 +47,6 @@ dependencies {
 
 ## Creating a Test
 
-The example code performs the sum of the two integer numbers.
 Create a new Kotlin file and write the following code:
 
 <div class="sample" markdown="1" theme="idea" data-min-compiler-version="1.3">
@@ -62,9 +61,9 @@ class Sample() {
 ```
 </div>
 
-The class Sample contains one function that sums two integers.
+The `Sample` class contains a function that sums two integers.
 
-To create a test for this code, add a new Kotlin file. It should contain the class instance and code for testing it:
+To create a test for this code, add a new Kotlin file. It should contain the `Sample` class instance and code for testing its function:
 
 <div class="sample" markdown="1" theme="idea" data-min-compiler-version="1.3">
 
@@ -91,5 +90,5 @@ The test contains the following `kotlin.test` keywords:
 
 ## Running a Test
 
-To run a test via IntelliJ IDEA use the gutter icons to execute it. Also, you can run a test via the command-line interface using the `./gradlew` command. 
+To run a test via IntelliJ IDEA use the gutter icon to execute it. Also, you can run a test via the command-line interface using the `./gradlew` command. 
 

@@ -19,7 +19,7 @@ Unit tests allow comparing the actual result with the expected. You divide the f
 A unit test requires the framework to write a test, and a test runner engine to launch it. Various frameworks provide their APIs to write tests: [JUnit](https://junit.org/junit5/), [Kotest](https://github.com/kotest/kotest), [TestNG](https://testng.org/doc/).
 
 The [kotlin.test](/api/latest/kotlin.test/index.html) library provides annotations and asserting functions to unify test code.
-It allows writing tests independently of the test framework.
+It allows writing tests independently of the test runner framework.
 
 ## Organizing and Running Test Code
 
