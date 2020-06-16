@@ -301,6 +301,11 @@ reference:
         - url: /docs/reference/kotlin-osgi.html
           title: OSGi
 
+    - title: Testing
+      content:
+        - url: /docs/reference/testing-overview.html
+          title: Testing Overview
+
     - title: Evolution
       description: Langauge evolution and compatibility
       content:
@@ -426,6 +431,11 @@ tutorials:
       content:
         - url: /docs/tutorials/kotlin-and-ci.html
           title: Setting up Kotlin on TeamCity
+
+    - title: Testing in Kotlin
+      content:
+        - url: /docs/tutorials/testing/testing-using-junit.html
+          title: Running Tests in JVM Using JUnit
 
     - title: Education
       content:
